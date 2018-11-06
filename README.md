@@ -2,8 +2,7 @@
 ---
 ## Objective:
 ---
-### **To cluster the data with LDA topic modeling and try to find genres in the music based on lyrics and to build a model that can predict what topic a song belongs to based on lyric/tag content.**
----
+#### **To cluster the data with LDA topic modeling and try to find genres in the music based on lyrics and to build a model that can predict what topic a song belongs to based on lyric/tag content.**
 
 ## Data Source
 ---
@@ -56,9 +55,9 @@ I used accuracy to see how well I was able to classify. I also looked at the val
 
 ### Inference:
 ----
- - What I can infer from my findings is that:
- ⋅⋅⋅⋅ * Music/lyrical data is incredibly complex, especially when you take into account dialects, slang, and different languages. From my study I think that the best methodology for music data is one that takes the route of dimensional reduction and feature extraction, because dealing with the full data is incredibly computationally expensive. There are methods such as the [joblib](https://joblib.readthedocs.io/en/latest/) library that can help with larger datasets like this, but overall it is best to try and trim the fat where you can.
- ⋅⋅⋅⋅ * I believe that an important thing to understand is the unbalanced nature of this set when it comes to genre. Pop/rock are 2 of the most popular music genres available for listening. Looking at the top 20 lists for past years show how popular those 2 genres are. Because of this having them in this set may not be the right approach. I hypothesize that trying to cluster the pop/rock genre seperate from all the other genres may be a better route. Another alternative would be to undersample and sample from the larger classes to match the size of some of the smaller ones. This is what I believe should be done as there is a lot of data, so it may still be enough for an adequate model.
+>What I can infer from my findings is that:
+ - Music/lyrical data is incredibly complex, especially when you take into account dialects, slang, and different languages. From my study I think that the best methodology for music data is one that takes the route of dimensional reduction and feature extraction, because dealing with the full data is incredibly computationally expensive. There are methods such as the [joblib](https://joblib.readthedocs.io/en/latest/) library that can help with larger datasets like this, but overall it is best to try and trim the fat where you can.
+ - I believe that an important thing to understand is the unbalanced nature of this set when it comes to genre. Pop/rock are 2 of the most popular music genres available for listening. Looking at the top 20 lists for past years show how popular those 2 genres are. Because of this having them in this set may not be the right approach. I hypothesize that trying to cluster the pop/rock genre seperate from all the other genres may be a better route. Another alternative would be to undersample and sample from the larger classes to match the size of some of the smaller ones. This is what I believe should be done as there is a lot of data, so it may still be enough for an adequate model.
 
 ## What's Next?
 ---
