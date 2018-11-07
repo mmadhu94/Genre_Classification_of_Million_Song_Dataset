@@ -4,6 +4,12 @@
 ---
 #### **To cluster the data with LDA topic modeling and try to find genres in the music based on lyrics and to build a model that can predict what topic a song belongs to based on lyric/tag content.**
 
+## Contents:
+ 1. [EDA with the yearly data](EDA_Year_data.ipynb)
+ 2. [EDA with the subset metadata](EDA_subset.ipynb)
+ 3. [Analysis and classification of different topics](Lyrics_Subset.ipynb)
+ 4. [Hdf5 file accessing functions (provided by MSD)](hdf5_getters.py)
+
 ## Data Source
 ---
 **The data set is not included here and it is given in the form of a direct download or it can be mounted using a snapshot id to an AWS EC2 instance on an EBS volume. More information on this here:** 
@@ -28,7 +34,7 @@ Citation for Genre Annotations dataset:
 
 The million song dataset is quite large and holds a lot of good features that can be explored. I was particularly interested in genres and lyric content. As you can see below, there are quite a few words in the lyrical content (the top 5000 of which are in the data set that was given by the MSD admins).
 
-![cloud](./wordcloud/words.png)
+![cloud](https://github.com/mmadhu94/Genre_Classification_of_Million_Song_Dataset/tree/master/wordclouds/words.png)
 
 ## Metrics I Used:
 ---
