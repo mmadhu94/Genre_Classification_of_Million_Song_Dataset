@@ -34,7 +34,7 @@ Citation for Genre Annotations dataset:
 
 The million song dataset is quite large and holds a lot of good features that can be explored. I was particularly interested in genres and lyric content. As you can see below, there are quite a few words in the lyrical content (the top 5000 of which are in the data set that was given by the MSD admins).
 
-![cloud](https://github.com/mmadhu94/Genre_Classification_of_Million_Song_Dataset/tree/master/wordclouds/words.png)
+![cloud](wordclouds/words.png)
 
 ## Metrics I Used:
 ---
